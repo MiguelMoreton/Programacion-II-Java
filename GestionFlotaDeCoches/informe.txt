@@ -1,0 +1,13 @@
+Informe de la flota de coches.
+Con fecha 2023-05-04
+
+-----------------------------------------------
+matricula=1111, marca=VW, modelo=Golf, fechaFabricacion=2021-02-14, precioCompra=7000.0, potencia=110, kilometros=12000, calificacionAmbiental=B
+matricula=2222, marca=Audi, modelo=A1, fechaFabricacion=2020-02-14, precioCompra=300.0, potencia=110, kilometros=12000, calificacionAmbiental=B
+matricula=3333, marca=Seat, modelo=León, fechaFabricacion=2010-02-14, precioCompra=7000.0, potencia=110, kilometros=12000, calificacionAmbiental=A
+matricula=4444, marca=Volvo, modelo=Grande, fechaFabricacion=2021-02-14, precioCompra=70000.0, potencia=110, kilometros=12000, calificacionAmbiental=ECO
+matricula=5555, marca=VW, modelo=Golf, fechaFabricacion=2021-02-14, precioCompra=7000.0, potencia=110, kilometros=12000, calificacionAmbiental=CERO
+matricula=6666, marca=VW, modelo=Pequeño, fechaFabricacion=2001-02-14, precioCompra=898000.0, potencia=110, kilometros=120000, calificacionAmbiental=C
+matricula=7777, marca=VW, modelo=Golf, fechaFabricacion=2013-04-20, precioCompra=7000.0, potencia=110, kilometros=12000, calificacionAmbiental=A
+-----------------------------------------------
+Fin del informe.

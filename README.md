@@ -1,55 +1,68 @@
 # Programación II — Portfolio Java
 
-Colección de ejercicios y pequeños proyectos realizados en Java para mostrar fundamentos de programación orientada a objetos, estructuras de datos, entrada/salida y manejo básico de archivos.
+![Java](https://img.shields.io/badge/Java-Programaci%C3%B3n%20II-blue)
+![Estado](https://img.shields.io/badge/estado-revisado-brightgreen)
+![Tipo](https://img.shields.io/badge/tipo-portfolio%20acad%C3%A9mico-lightgrey)
+
+Repositorio académico con proyectos realizados en **Java** durante la asignatura **Programación II**.
+
+El objetivo de este repositorio es presentar las prácticas de forma ordenada, como portfolio técnico para GitHub. Cada proyecto está separado en su propia carpeta y puede revisarse de manera independiente.
+
+## Qué se ha preparado para este portfolio
+
+- Organización de los ejercicios en carpetas independientes.
+- README general con índice de proyectos.
+- README individual dentro de cada proyecto.
+- Limpieza de archivos temporales de IntelliJ, compilados y carpetas `out`.
+- Revisión de compilación de los proyectos incluidos.
+- Exclusión de ejercicios incompletos o con errores de sintaxis.
+- Documentación de los cambios y de la revisión realizada.
 
 ## Proyectos incluidos
 
-Todos los proyectos incluidos en este repositorio fueron revisados, compilados y ejecutados correctamente con `OpenJDK 21`. También se aplicaron correcciones mínimas en tres proyectos incluidos para evitar resultados incorrectos o fallos de ejecución.
+| Proyecto | Tipo | Nivel aproximado | Resumen |
+|---|---|---|---|
+| [Aprender](./Aprender/) | Consola básica | Inicial | Primer ejercicio de toma de contacto con Java y la salida por consola. |
+| [Cambio de temperatura](./Cambio-de-temperatura/) | Cálculo matemático | Inicial | Conversor sencillo entre grados Fahrenheit y Celsius. |
+| [Caracteres](./Caracteres/) | Tipos de datos | Inicial | Ejercicio de manipulación de caracteres y sus códigos numéricos. |
+| [Coches](./Coches/) | POO | Intermedio | Ejemplo de creación de una clase `Coche` y uso de objetos desde un programa principal. |
+| [Cono](./Cono/) | Cálculo matemático | Inicial | Cálculo de área y volumen de un cono usando valores definidos en el código. |
+| [Cono 2](./Cono2/) | Consola interactiva | Inicial / Intermedio | Versión interactiva del cálculo de área y volumen de un cono con entrada por teclado. |
+| [Ejemplo conjunto de enteros](./EjemploConjuntoEnteros/) | Estructuras de datos | Intermedio | Implementación de un conjunto de enteros con operaciones como unión e intersección. |
+| [Flota de coches](./Flota-Coches/) | POO aplicada | Intermedio | Modelo de vehículos, repostajes y cálculo de consumo medio. |
+| [Gestión de flota de coches](./GestionFlotaDeCoches/) | Aplicación de consola | Intermedio / Avanzado | Aplicación de consola para gestionar una flota de coches con menú y archivos de datos. |
+| [Gestión Bolsa 2.0](./Gestion_Bolsa2.0/) | Aplicación de consola | Avanzado | Aplicación de consola para gestionar una cartera de inversión, activos, operaciones y cuenta bancaria. |
+| [Polinomios](./Polinomios/) | Matemáticas + POO | Intermedio | Representación y operaciones básicas con polinomios. |
+| [Prueba de subarchivos](./Prueba-de-subarchivos/) | Organización de código | Intermedio | Ejercicio con varias clases auxiliares y enumeraciones para organizar información académica. |
+| [Rectángulo](./Rectangulo/) | Cálculo matemático | Inicial | Cálculo de área y perímetro de un rectángulo. |
 
-| Proyecto | Descripción breve | Ejecución |
-|---|---|---|
-| Aprender | Primer programa de prueba: salida por consola. | `java -cp out Main` |
-| Cambio-de-temperatura | Conversión básica entre Fahrenheit y Celsius. | `java -cp out Main` |
-| Caracteres | Operaciones básicas con caracteres y códigos numéricos. | `java -cp out Main` |
-| Coches | Clase `Coche`, objetos, atributos y método `toString`. | `java -cp out Main` |
-| Cono | Cálculo de área y volumen de un cono con datos fijos. | `java -cp out Main` |
-| Cono2 | Cálculo de área y volumen de un cono con entrada por teclado. | `java -cp out Main` |
-| EjemploConjuntoEnteros | Implementación de un conjunto de enteros con unión e intersección. | `java -cp out Main` |
-| Flota-Coches | Modelo de vehículos, repostajes y consumo medio. | `java -cp out Main` |
-| GestionFlotaDeCoches | Gestión de una flota de coches con menú y archivos. | `java -cp out Main` |
-| Gestion_Bolsa2.0 | Gestión de una cartera de inversión con cuenta bancaria, operaciones, activos y generación de informes. | `java -cp out Main` |
-| Polinomios | Operaciones básicas con polinomios. | `java -cp out Main` |
-| Prueba-de-subarchivos | Ejemplo de clases auxiliares y enum. | `java -cp out Main` |
-| Rectangulo | Cálculo de área y perímetro de un rectángulo. | `java -cp out Main` |
+## Cómo revisar un proyecto
 
-## Cómo compilar un proyecto
+Entra en la carpeta del proyecto que quieras ver y abre su carpeta `src/`. Cada ejercicio incluye un README propio con:
 
-Entra en la carpeta del proyecto y ejecuta:
+- objetivo del ejercicio;
+- conceptos trabajados;
+- archivos principales;
+- comando de compilación y ejecución.
+
+## Cómo ejecutar un proyecto concreto
+
+Los proyectos **no están pensados para ejecutarse todos a la vez**. Para probar uno en concreto:
 
 ```bash
+cd NombreDelProyecto
 javac -encoding UTF-8 -d out src/*.java
 java -cp out Main
 ```
 
-También puedes abrir cada carpeta como proyecto Java en IntelliJ IDEA.
+También puedes abrir cada carpeta individualmente desde IntelliJ IDEA.
 
-## Proyectos excluidos tras la revisión
+## Documentación adicional
 
-Estos proyectos se quitaron del ZIP final porque no estaban listos para presentarse en GitHub:
+- [Informe de revisión](./INFORME_REVISION.md)
+- [Cambios realizados](./docs/CAMBIOS_REALIZADOS.md)
+- [Mapa del repositorio](./docs/MAPA_REPOSITORIO.md)
 
-| Proyecto eliminado | Motivo |
-|---|---|
-| Ejercicio_Clase | Error de sintaxis en `trabajador.java`: constructor incompleto. |
-| PreciosWeb | Error de sintaxis en `Main.java`: línea incompleta con `new Scanner(Syst)`. |
-| Simulacro de informatica | No contiene carpeta `src` ni archivos `.java` ejecutables. |
-| Test | Errores de sintaxis en `Main.java`, por ejemplo `falso.` y una concatenación incompleta. |
+## Nota
 
-## Notas
-
-Se han eliminado archivos de configuración local de IntelliJ (`.idea`, `.iml`) y carpetas de compilación (`out`) para dejar el repositorio más limpio.
-
-Correcciones mínimas aplicadas:
-
-- `Cambio-de-temperatura`: fórmula de conversión Celsius → Fahrenheit corregida.
-- `Coches`: asignación del año de fabricación en el constructor corregida.
-- `Gestion_Bolsa2.0`: uso de un único `Scanner` para evitar fallos de lectura en el menú interactivo.
+Este repositorio muestra una evolución académica: incluye ejercicios sencillos de iniciación y proyectos más completos con programación orientada a objetos, menús, archivos y varias clases.
