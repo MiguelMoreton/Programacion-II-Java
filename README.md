@@ -1,68 +1,45 @@
-# Programación II — Portfolio Java
+# Programación II - Portfolio de proyectos Java
 
-![Java](https://img.shields.io/badge/Java-Programaci%C3%B3n%20II-blue)
-![Estado](https://img.shields.io/badge/estado-revisado-brightgreen)
-![Tipo](https://img.shields.io/badge/tipo-portfolio%20acad%C3%A9mico-lightgrey)
+Este repositorio reúne varios proyectos realizados durante la asignatura **Programación II**.  
+El objetivo es mostrar mi evolución programando en **Java**, practicando conceptos básicos y creando pequeñas aplicaciones de consola.
 
-Repositorio académico con proyectos realizados en **Java** durante la asignatura **Programación II**.
+## Sobre este repositorio
 
-El objetivo de este repositorio es presentar las prácticas de forma ordenada, como portfolio técnico para GitHub. Cada proyecto está separado en su propia carpeta y puede revisarse de manera independiente.
+Aquí se incluyen ejercicios y proyectos centrados en:
 
-## Qué se ha preparado para este portfolio
+- Programación orientada a objetos
+- Uso de clases, atributos y métodos
+- Condicionales y bucles
+- Arrays y estructuras básicas
+- Entrada y salida por consola
+- Resolución de problemas mediante código
 
-- Organización de los ejercicios en carpetas independientes.
-- README general con índice de proyectos.
-- README individual dentro de cada proyecto.
-- Limpieza de archivos temporales de IntelliJ, compilados y carpetas `out`.
-- Revisión de compilación de los proyectos incluidos.
-- Exclusión de ejercicios incompletos o con errores de sintaxis.
-- Documentación de los cambios y de la revisión realizada.
+Cada carpeta corresponde a un proyecto diferente.
 
 ## Proyectos incluidos
 
-| Proyecto | Tipo | Nivel aproximado | Resumen |
-|---|---|---|---|
-| [Aprender](./Aprender/) | Consola básica | Inicial | Primer ejercicio de toma de contacto con Java y la salida por consola. |
-| [Cambio de temperatura](./Cambio-de-temperatura/) | Cálculo matemático | Inicial | Conversor sencillo entre grados Fahrenheit y Celsius. |
-| [Caracteres](./Caracteres/) | Tipos de datos | Inicial | Ejercicio de manipulación de caracteres y sus códigos numéricos. |
-| [Coches](./Coches/) | POO | Intermedio | Ejemplo de creación de una clase `Coche` y uso de objetos desde un programa principal. |
-| [Cono](./Cono/) | Cálculo matemático | Inicial | Cálculo de área y volumen de un cono usando valores definidos en el código. |
-| [Cono 2](./Cono2/) | Consola interactiva | Inicial / Intermedio | Versión interactiva del cálculo de área y volumen de un cono con entrada por teclado. |
-| [Ejemplo conjunto de enteros](./EjemploConjuntoEnteros/) | Estructuras de datos | Intermedio | Implementación de un conjunto de enteros con operaciones como unión e intersección. |
-| [Flota de coches](./Flota-Coches/) | POO aplicada | Intermedio | Modelo de vehículos, repostajes y cálculo de consumo medio. |
-| [Gestión de flota de coches](./GestionFlotaDeCoches/) | Aplicación de consola | Intermedio / Avanzado | Aplicación de consola para gestionar una flota de coches con menú y archivos de datos. |
-| [Gestión Bolsa 2.0](./Gestion_Bolsa2.0/) | Aplicación de consola | Avanzado | Aplicación de consola para gestionar una cartera de inversión, activos, operaciones y cuenta bancaria. |
-| [Polinomios](./Polinomios/) | Matemáticas + POO | Intermedio | Representación y operaciones básicas con polinomios. |
-| [Prueba de subarchivos](./Prueba-de-subarchivos/) | Organización de código | Intermedio | Ejercicio con varias clases auxiliares y enumeraciones para organizar información académica. |
-| [Rectángulo](./Rectangulo/) | Cálculo matemático | Inicial | Cálculo de área y perímetro de un rectángulo. |
+| Proyecto | Descripción |
+|---|---|
+| Aprender | Ejercicios básicos para practicar Java |
+| Cambio-de-temperatura | Conversor de temperatura |
+| Caracteres | Práctica con caracteres y cadenas |
+| Coches | Gestión básica de datos de coches |
+| Cono | Cálculos relacionados con un cono |
+| Cono2 | Segunda versión del ejercicio del cono |
+| EjemploConjuntoEnteros | Ejemplo con conjuntos de números enteros |
+| Flota-Coches | Gestión sencilla de una flota de coches |
+| GestionFlotaDeCoches | Proyecto de gestión de vehículos |
+| Gestion_Bolsa2.0 | Simulación sencilla de gestión de bolsa |
+| Polinomios | Trabajo con polinomios |
+| Prueba-de-subarchivos | Proyecto de práctica con varios archivos |
+| Rectangulo | Cálculos relacionados con rectángulos |
 
-## Cómo revisar un proyecto
+## Cómo ver los proyectos
 
-Entra en la carpeta del proyecto que quieras ver y abre su carpeta `src/`. Cada ejercicio incluye un README propio con:
+Cada proyecto está separado en su propia carpeta.  
+Para probar uno, solo hay que abrir su carpeta en un entorno como **IntelliJ IDEA**, **Eclipse** o **Visual Studio Code** con Java instalado.
 
-- objetivo del ejercicio;
-- conceptos trabajados;
-- archivos principales;
-- comando de compilación y ejecución.
+## Objetivo
 
-## Cómo ejecutar un proyecto concreto
+Este repositorio forma parte de mi portfolio académico y muestra algunos de los ejercicios que he realizado para aprender y mejorar mis habilidades en programación con Java.
 
-Los proyectos **no están pensados para ejecutarse todos a la vez**. Para probar uno en concreto:
-
-```bash
-cd NombreDelProyecto
-javac -encoding UTF-8 -d out src/*.java
-java -cp out Main
-```
-
-También puedes abrir cada carpeta individualmente desde IntelliJ IDEA.
-
-## Documentación adicional
-
-- [Informe de revisión](./INFORME_REVISION.md)
-- [Cambios realizados](./docs/CAMBIOS_REALIZADOS.md)
-- [Mapa del repositorio](./docs/MAPA_REPOSITORIO.md)
-
-## Nota
-
-Este repositorio muestra una evolución académica: incluye ejercicios sencillos de iniciación y proyectos más completos con programación orientada a objetos, menús, archivos y varias clases.
